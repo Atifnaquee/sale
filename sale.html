@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{
+            text-align: center;
+          
+            width: auto;
+            margin: auto;
+        }
+        #heading h1{
+            font-size: 179%;
+        }
+        #heading>p{
+            font-size: 100%;
+            line-height: 20px;
+            color: gray;
+        }
+        #cards-section{
+            width: 70%;
+            
+            margin: auto;
+            margin-top: 40px;
+            display: flex;
+
+        }
+        #cards-section>div{
+            width: 30%;
+            height: 90%;
+           ;
+            margin: auto;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 20px;
+
+        }
+        h2 + h1 +p{
+            font-style: italic;
+        }
+        p+p{
+            line-height: 20px;
+            padding: 40px;
+            font-size: 20px;
+        }
+        #cards-section>div:first-child h1{
+            color: green;
+        }
+        #cards-section>div:nth-child(2) h1{
+            color:orangered;
+        }
+        #cards-section>div:last-child h1{
+            color:blue;
+        }
+        button{
+            background-color: white;
+           
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 20px 10px 20px ;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <h1>Choose a plan that right for <br>your bussiness</h1>
+        <p> We collect reviews from our users so you can get an honest opinion of
+            what<br> an experience with our website are really like!
+     </p>
+
+    </div>
+    <!--Cards section-->
+    <div id="cards-section">
+        <div>
+            <h2>Starter plan</h2>
+            <h1>Free</h1>
+            <p>Per Month</p>
+            <p>We collect reviews from our user so you can get an honest opinion of what an experience with our website.</p>
+           
+            <button>Start Now</button>
+        </div>
+        <div>
+            <h2>Starter plan</h2>
+            <h1>Free</h1>
+            <p>Per Month</p>
+            <p>We collect reviews from our user so you can get an honest opinion of what an experience with our website.</p>
+           
+            <button>Start Now</button>
+        </div>
+        <div>
+            <h2>Starter plan</h2>
+            <h1>Free</h1>
+            <p>Per Month</p>
+            <p>We collect reviews from our user so you can get an honest opinion of what an experience with our website.</p>
+           
+            <button>Start Now</button>
+        </div>
+
+    </div>
+</body>
+</html>
